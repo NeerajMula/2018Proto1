@@ -15,7 +15,7 @@ public class DistanceDriveAlternatePID extends Command {
     double angleError;
     double correctionPower; 
     double Kp = 0.03;
-    double distance = 0;
+    double distance;
 
    
     public DistanceDriveAlternatePID(double dist) {

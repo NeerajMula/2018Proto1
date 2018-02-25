@@ -31,7 +31,6 @@ public class MoveElevator extends Command {
     		//cancel();
     	
     	System.out.println("Current Location: " + currentLocation);
-    	
     	if(goal > currentLocation)
     		speed = speedUp;
     	

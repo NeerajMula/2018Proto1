@@ -13,7 +13,7 @@ import edu.wpi.first.wpilibj.SpeedControllerGroup;
  */
 public class Claw extends Subsystem {
 
-    Victor leftMotor = new Victor(RobotMap.claw[0]);
+   public Victor leftMotor = new Victor(RobotMap.claw[0]);
     Victor rightMotor = new Victor(RobotMap.claw[1]);
     
     Victor winch = new Victor(RobotMap.winch);
